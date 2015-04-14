@@ -1,0 +1,86 @@
+hangman notes
+
+game start - load file
+randomly select a word 5-12 letters long
+
+answer array
+correct guesses array
+wrong guesses array
+
+turn:
+display gallows
+	case wrong_guesses.length
+	gallows
+display word
+
+solicit guess
+	player guesses letter - case insensitive
+
+update the display to reflect correct or incorrect
+	temp_guess_index = []
+	the_word.each_with_index 
+		if match temp_guess_index << index
+
+		
+
+game over if player runs out of guesses or wins
+
+WELCOME TO 
+THE HANGMAN
+GAME!!!!!!
+
+|----
+|		|
+|	
+|	
+|	
+|
+|
+
+|----
+|		|
+|		O
+|	 
+|	 
+|
+|
+
+|----
+|		|
+|		O
+|	  U
+|	 
+|
+|
+
+|----
+|		|
+|		O
+|	 \U
+|	 
+|
+|
+
+|----
+|		|
+|		O
+|	 \U/
+|	 
+|
+|
+
+|----
+|		|
+|		O
+|	 \U/
+|	 / 
+|
+|
+
+|----
+|		|
+|		O
+|	 \U/
+|	 / \
+|
+|
